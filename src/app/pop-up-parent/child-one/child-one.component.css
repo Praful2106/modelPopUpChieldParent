@@ -1,0 +1,37 @@
+.data1{
+    /* text-align: center; */
+    width: 200px;
+    height: fit-content;
+    background-color:aquamarine;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin: 20px 10px;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.modal-body{
+    font-weight: bold;
+    
+}
+.let-modal{
+    width: fit-content;
+    height: 200PX;
+
+}
+
+.modal-content{
+    width: 20%;
+}
+.buttonCheck{
+    font-size: 0.7rem;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+.col-lg-2
+{
+float:inherit;
+}

@@ -1,0 +1,226 @@
+
+<app-pop-up-parent></app-pop-up-parent>
+<div style="text-align: center;margin-top: 100px;">
+    <!-- <h1>Child Componant</h1><br>
+    <button class="btn btn-lg btn-outline-dark" style="font-weight: bold;" routerLink="/pop-up-parent" (click)="open(mymodal1)">Open In Parent</button> -->
+
+<!-- ################################# MODEL-1 ##################################### -->
+
+       
+    <ng-template #mymodal1 let-modal>
+      <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Hi {{arr[0].name}}</h4>
+        <button type="button" style="font-weight: bold;" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+          <span aria-hidden="true">x</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>ID: {{arr[0].id}}</p>
+        <p>Name: {{arr[0].name}}</p>
+        <p>Email: {{arr[0].mail}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" style="font-weight: bold;" (click)="modal.close('Save click')">Close</button>
+      </div>
+    </ng-template>
+    </div>
+    <!-- ################################# MODEL-2 ##################################### -->
+<!-- <button class="btn btn-lg btn-outline-dark" style="font-weight: bold;" routerLink="/pop-up-parent" (click)="open(mymodal2)">Open In Parent</button> -->
+       
+    <ng-template #mymodal2 let-modal>
+      <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Hi {{arr[1].name}}</h4>
+        <button type="button" style="font-weight: bold;" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+          <span aria-hidden="true">x</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>ID: {{arr[1].id}}</p>
+        <p>Name: {{arr[1].name}}</p>
+        <p>Email: {{arr[1].mail}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" style="font-weight: bold;" (click)="modal.close('Save click')">Close</button>
+      </div>
+    </ng-template>
+    
+        <!-- ################################# MODEL-3 ##################################### -->
+        <!-- <button class="btn btn-lg btn-outline-dark" style="font-weight: bold;" routerLink="/pop-up-parent" (click)="open(mymodal3)">Open In Parent</button> -->
+       
+        <ng-template #mymodal3 let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Hi {{arr[2].name}}</h4>
+            <button type="button" style="font-weight: bold;" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+              <span aria-hidden="true">x</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>ID: {{arr[2].id}}</p>
+            <p>Name: {{arr[2].name}}</p>
+            <p>Email: {{arr[2].mail}}</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-dark" style="font-weight: bold;" (click)="modal.close('Save click')">Close</button>
+          </div>
+        </ng-template>
+        
+            <!-- ################################# MODEL-4 ##################################### -->
+            <!-- <button class="btn btn-lg btn-outline-dark" style="font-weight: bold;" routerLink="/pop-up-parent" (click)="open(mymodal4)">Open In Parent</button> -->
+       
+            <ng-template #mymodal4 let-modal>
+              <div class="modal-header">
+                <h4 class="modal-title" id="modal-basic-title">Hi {{arr[3].name}}</h4>
+                <button type="button" style="font-weight: bold;" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                  <span aria-hidden="true">x</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>ID: {{arr[3].id}}</p>
+                <p>Name: {{arr[3].name}}</p>
+                <p>Email: {{arr[3].mail}}</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" style="font-weight: bold;" (click)="modal.close('Save click')">Close</button>
+              </div>
+            </ng-template>
+             <!-- ################################# MODEL-5 ##################################### -->
+            <!-- <button class="btn btn-lg btn-outline-dark" style="font-weight: bold;" routerLink="/pop-up-parent" (click)="open(mymodal4)">Open In Parent</button> -->
+       
+            <ng-template #mymodal5 let-modal>
+              <div class="modal-header">
+                <h4 class="modal-title" id="modal-basic-title">Hi {{arr[4].name}}</h4>
+                <button type="button" style="font-weight: bold;" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                  <span aria-hidden="true">x</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>ID: {{arr[4].id}}</p>
+                <p>Name: {{arr[4].name}}</p>
+                <p>Email: {{arr[4].mail}}</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" style="font-weight: bold;" (click)="modal.close('Save click')">Close</button>
+              </div>
+            </ng-template>
+
+
+             <!-- ################################# MODEL-6 ##################################### -->
+            <!-- <button class="btn btn-lg btn-outline-dark" style="font-weight: bold;" routerLink="/pop-up-parent" (click)="open(mymodal4)">Open In Parent</button> -->
+       
+            <ng-template #mymodal6 let-modal>
+              <div class="modal-header">
+                <h4 class="modal-title" id="modal-basic-title">Hi {{arr[5].name}}</h4>
+                <button type="button" style="font-weight: bold;" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                  <span aria-hidden="true">x</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>ID: {{arr[5].id}}</p>
+                <p>Name: {{arr[5].name}}</p>
+                <p>Email: {{arr[5].mail}}</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" style="font-weight: bold;" (click)="modal.close('Save click')">Close</button>
+              </div>
+            </ng-template>
+            
+            <!-- ########################################### MODEL-END ################# -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+<!-- ################################### 1ST ARRAY ################################ -->
+
+
+            <div class="col-lg-2">
+    <div class="data1">
+
+<p>ID: {{arr[0].id}}</p>
+<p>Name: {{arr[0].name}}</p>
+<p>Email: {{arr[0].mail}}</p>
+<!-- <button class="btn btn-primary">Check</button> -->
+<button class="btn btn-lg btn-outline-dark buttonCheck"   (click)="open(mymodal1)">More</button>
+
+    </div>
+</div>
+
+<!-- ################################### 2ND ARRAY ################################ -->
+
+<div class="col-lg-2">
+
+    <div class="data1">
+
+        <p>ID: {{arr[1].id}}</p>
+        <p>Name: {{arr[1].name}}</p>
+        <p>Email: {{arr[1].mail}}</p>
+        <!-- <button class="btn btn-primary">Check</button> -->
+        <button class="btn btn-lg btn-outline-dark buttonCheck"   (click)="open(mymodal2)">More</button>
+        
+            </div>
+</div>
+
+<!-- ################################### 3RD ARRAY ################################ -->
+
+
+<div class="col-lg-2">
+    <div class="data1">
+
+        <p>ID: {{arr[2].id}}</p>
+        <p>Name: {{arr[2].name}}</p>
+        <p>Email: {{arr[2].mail}}</p>
+        <!-- <button class="btn btn-primary">Check</button> -->
+        <button class="btn btn-lg btn-outline-dark buttonCheck"   (click)="open(mymodal3)">More</button>
+        
+            </div>   
+</div>
+
+<!-- ################################### 4TH ARRAY ################################ -->
+
+
+<div class="col-lg-2">
+    <div class="data1">
+
+        <p>ID: {{arr[3].id}}</p>
+        <p>Name: {{arr[3].name}}</p>
+        <p>Email: {{arr[3].mail}}</p> 
+         <!-- <button class="btn btn-primary">Check</button> -->
+        <button class="btn btn-lg btn-outline-dark buttonCheck"   (click)="open(mymodal4)">More</button>
+        
+            </div>   
+</div>
+
+<!-- ################################### 5TH ARRAY ################################ -->
+
+
+<div class="col-lg-2">
+  <div class="data1">
+
+      <p>ID: {{arr[4].id}}</p>
+      <p>Name: {{arr[4].name}}</p>
+      <p>Email: {{arr[4].mail}}</p> 
+       <!-- <button class="btn btn-primary">Check</button> -->
+      <button class="btn btn-lg btn-outline-dark buttonCheck"  (click)="open(mymodal5)">More</button>
+      
+          </div>   
+</div>
+
+<!-- ################################### 6TH ARRAY ################################ -->
+
+
+<div class="col-lg-2">
+  <div class="data1">
+
+      <p>ID: {{arr[5].id}}</p>
+      <p>Name: {{arr[5].name}}</p>
+      <p>Email: {{arr[5].mail}}</p> 
+       <!-- <button class="btn btn-primary">Check</button> -->
+      <button class="btn btn-lg btn-outline-dark buttonCheck" (click)="open(mymodal6)">More</button>
+      
+          </div>   
+</div>
+
+<!-- ################################### END ARRAY ################################ -->
+
+
+        </div>
+        </div>
